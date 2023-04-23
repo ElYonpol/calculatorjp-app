@@ -1,0 +1,24 @@
+.button{
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 0.25rem;
+	transition: all 0.5s ease;
+	padding: 0.5rem;
+}
+
+.button-numbers{
+	color: #fff7ef;
+	background-color: rgb(125, 131, 131);
+	font-size: 2rem;
+}
+
+.button-numbers:hover {
+	background-color: #fff7ef;
+	color: black;
+}
+
+.button-operations{
+	color: #fff7ef;
+	background-color: darkslategrey;
+}

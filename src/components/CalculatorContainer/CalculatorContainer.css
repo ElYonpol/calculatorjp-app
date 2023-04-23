@@ -1,0 +1,10 @@
+.container {
+	display: flex;
+    flex-flow: row wrap;
+	flex: 0 1 3rem;
+    /* width: min(3rem,80%); */
+    background-color: #b4b8be;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.25rem;
+}
