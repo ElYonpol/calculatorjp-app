@@ -1,24 +1,32 @@
-.button{
+.button {
 	cursor: pointer;
-	display: inline-block;
+	display: grid;
+	place-content: center;
 	text-decoration: none;
-	border-radius: 0.25rem;
+	border-radius: 1rem;
 	transition: all 0.5s ease;
 	padding: 0.5rem;
-}
-
-.button-numbers{
-	color: #fff7ef;
-	background-color: rgb(125, 131, 131);
+	margin: 0.5rem;
+	width: 3.5rem;
+	height: 3.5rem;
 	font-size: 2rem;
+	color: #fff7ef;
 }
 
-.button-numbers:hover {
+.button:hover {
 	background-color: #fff7ef;
 	color: black;
 }
 
-.button-operations{
-	color: #fff7ef;
+.button-numbers {
+	background-color: rgb(125, 131, 131);
+}
+
+.button-specials {
+	background-color: rgb(84, 88, 88);
+}
+
+.button-operations {
 	background-color: darkslategrey;
+	width: 5rem;
 }

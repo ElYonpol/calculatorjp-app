@@ -1,0 +1,20 @@
+.keyboardContainer {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.numbersContainer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: #b4b8be;
+	padding: 1rem 0rem 1rem 1rem;
+	border-radius: 0rem 0rem 0rem 1rem;
+}
+
+.operatorsContainer {
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: #b4b8be;
+	padding: 1rem 1rem 1rem 0rem;
+	border-radius: 0rem 0rem 1rem 0rem;
+}
