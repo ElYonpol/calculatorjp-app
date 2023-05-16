@@ -16,4 +16,6 @@
 	color: black;
 	border: 0.5rem solid black;
 	font-family: "Digital-7", monospace;
+	max-width: 18.5rem;
+	overflow: hidden;
 }

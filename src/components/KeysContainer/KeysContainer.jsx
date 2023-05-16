@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { evaluate } from "mathjs";
 import Button from "../Button/Button.jsx";
 import "./KeysContainer.css";
 import "./Display.css";
@@ -17,8 +18,15 @@ export default function KeysContainer() {
 				return;
 			}
 			if (key === "=") {
-				const calculation = eval(displayText);
-				setDisplayText(calculation);
+				try {
+					let calculation = evaluate(displayText);
+					setDisplayText(calculation);
+					// calculation = Function(
+					// 	`"use strict";return (${setDisplayText(calculation).value})`
+					// )();
+				} catch (error) {
+					setDisplayText("error");
+				}
 				setClickedEqual(true);
 				return;
 			}
