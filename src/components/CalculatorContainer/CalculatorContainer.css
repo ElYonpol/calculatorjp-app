@@ -2,15 +2,4 @@
 	background-color: #b4b8be;
     border-radius: 1rem;
 	display: grid;
-	grid-template-areas:
-		"calcDisplay"
-		"calcKeys";
-}
-
-#calcDisplay {
-	grid-area: calcDisplay;
-}
-
-#calcKeys {
-	grid-area: calcKeys;
 }

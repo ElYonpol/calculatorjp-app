@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "Digital-7";
+	src: url("../../assets/fonts/Digital7Italic-BW658.ttf") format("truetype");
+}
+
+.display {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #9fb359;
+	border-radius: 1rem;
+	padding: 1rem;
+	margin: 1.5rem;
+	height: 5rem;
+	font-size: 3rem;
+	color: black;
+	border: 0.5rem solid black;
+	font-family: "Digital-7", monospace;
+}
