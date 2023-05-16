@@ -21,9 +21,6 @@ export default function KeysContainer() {
 				try {
 					let calculation = evaluate(displayText);
 					setDisplayText(calculation);
-					// calculation = Function(
-					// 	`"use strict";return (${setDisplayText(calculation).value})`
-					// )();
 				} catch (error) {
 					setDisplayText("error");
 				}
